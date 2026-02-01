@@ -8,6 +8,7 @@
 
 # testing
 /coverage
+/test
 
 # next.js
 /.next/
@@ -30,6 +31,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# claude code
+.claude/
+
+# test data
+/test-pdfs
 
 # typescript
 *.tsbuildinfo
