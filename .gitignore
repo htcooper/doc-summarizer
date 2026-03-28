@@ -35,6 +35,9 @@ yarn-error.log*
 # claude code
 .claude/
 
+# local archive
+/_archive/
+
 # test data
 /test-pdfs
 
