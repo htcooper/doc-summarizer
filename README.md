@@ -6,6 +6,12 @@ A web app that extracts text from uploaded PDFs and generates concise AI-powered
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8)
 
+## Screenshots
+
+| Upload | Summary |
+|--------|---------|
+| ![Upload view](screenshot-before.png) | ![Summary view](screenshot-after.png) |
+
 ## Features
 
 - **Drag-and-drop upload** — drop a PDF or click to browse
