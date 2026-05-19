@@ -38,6 +38,9 @@ yarn-error.log*
 # local archive
 /_archive/
 
+# case study source materials
+/case-study
+
 # test data
 /test-pdfs
 

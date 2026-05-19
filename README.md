@@ -1,4 +1,4 @@
-# PDF Summarizer
+# File Upload Summarizer
 
 A web app that extracts text from uploaded PDFs and generates concise AI-powered summaries using OpenAI's GPT-4o-mini. Built with Next.js 14, shadcn/ui, and Tailwind CSS.
 
@@ -41,8 +41,8 @@ A web app that extracts text from uploaded PDFs and generates concise AI-powered
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/pdf-summarizer.git
-cd pdf-summarizer
+git clone https://github.com/htcooper/doc-summarizer.git
+cd doc-summarizer
 
 # Install dependencies
 npm install
@@ -67,8 +67,7 @@ app/
 │   └── summarize/route.ts   # OpenAI summarization endpoint
 components/
 ├── pdf-uploader.tsx         # Drag-and-drop file upload zone
-├── summary-card.tsx         # Summary display with expand/collapse
-├── feedback-widget.tsx      # Thumbs up/down + optional comments
+├── summary-card.tsx         # Summary display with expand/collapse and feedback
 ├── ui/                      # shadcn/ui base components
 lib/
 ├── openai.ts                # OpenAI client config (model, timeouts, retries)
